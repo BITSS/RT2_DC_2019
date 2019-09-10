@@ -4,7 +4,7 @@ output:
   html_document: default
 ---
 # Research Transparency & Reproducibility Training (RT2)
-Materials for workshop on research transparency, Los Angeles 2018
+Materials for workshop on research transparency, Washington 2019
 
 UC Berkeley ([Berkeley Initative for Transparency in the Social Sciences](http://www.bitss.org))
 

@@ -186,20 +186,26 @@ talk about undo here
 5- Repeat 1-3 but now replace instead of adding content.    
  
 
-## Demo #2: Fatal Error!
+## Fatal Error!
 
-- Error image  
+\centering
+\includegraphics[height=1in]{../Images/error_image.png}  
 
-- Burn it and start with a fresh copy  
+\pause  
+
+\includegraphics[height=1in]{../Images/calm_burn.jpg}  
+ 
+\LARGE{Burn it and start with a fresh copy!} 
 
 
-## Demo #2: Branches and collaboration 
 
-6- Fork repo `github.com/BITSS/test2`, and clone it into your machine.  
-7- Edit fields of name, and birth date.   
-8- Save, commit and push.   
-9- Create your first Pull Request.   
-10- Let's see if I can manage all those pull requests very quickly.     
+## Demo #3: Branches and collaboration 
+
+1- Fork repo `github.com/BITSS/test2`, and clone it into your machine.  
+2- Edit fields of name, and birth date.   
+3- Save, commit and push.   
+4- Create your first Pull Request.   
+5- Let's see if I can manage all those pull requests very quickly.     
 
 
 ## Talk about two modes of collaboration  

@@ -1,0 +1,50 @@
+---
+title: "Git and GitHub Handout"
+author: "Fernando Hoces de la Guardia"
+date: "5/8/2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Definitions 
+
+### Terms  
+
+- **Git:** is the software that does tracks changes across your files. All happens under the hood (there is no "Git app"")  
+
+- **Github** is an implementation of Git that is easier to use, provides free (public) cloud service, and tools for collaboration.   
+
+- **Github Desktop App** is software develop by Github that helps you run Git in your computer and access your work on the web.   
+
+- **Repo:** A repository or is a master folder that contains all your work.   
+
+- **Local:** when you make changes to your files in your computer, you are working locally.    
+
+- **Remote:** whenever you make changes to the files in the cloud/server you are working remotelly.   
+
+### Actions to get files
+
+- **Fork:** when in github.com you copy the repo of somebody else's account into your account, you fork it.     
+
+- **Clone:** when you download at repo into your local machine, using the github app, you clone a repo.     
+
+### Actions to track files    
+
+- **Commit:** whenever you take a local snapshot of your *saved* work, you commit. Get used to commiting early and often.     
+
+- **Push:** when you want to upload a set of local commits to the remote, you push.   
+
+- **Pull:** when you want to update your local repo with more recent content from the remote, you pull. 
+
+
+## Pain points and (quick and dirty) solutions
+
+- Not sure if you have git installed? --> Install the Github desktop app.   
+- Having problem with authetification?  --> Install the Github desktop app and login.   
+- Cannot pull or push due to merge conflicts? --> Back up local repo, then delete, then clone from remote. 
+
+
+

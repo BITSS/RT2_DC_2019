@@ -1,0 +1,17 @@
+\frametitle{Final Remarks \& More Resources}
+\protect\hypertarget{final-remarks-more-resources-1}{}
+
+\begin{itemize}
+\tightlist
+\item
+  With DD we can achieve a one-click reproducible workflow.
+\item
+  This is particularly helpful to understand/present results that are
+  hard to digest.
+\item
+  More great examples in the workshop repo (\texttt{x-moredynamicdocs}).
+\item
+  Want to learn more: \href{https://bookdown.org/}{great free books}
+  (can you guess how they were written?)
+\end{itemize}
+

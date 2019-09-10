@@ -1,0 +1,34 @@
+---
+title: "The Birthday Problem"
+author: "Fernando Hoces de la Guardia"
+date: "9/28/2018"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+```{r}
+n.pers = 100
+set.seed(1234)
+```
+
+
+# The birthday problem
+
+The probability that at least two people in this room have the same birthday feels like somthing like `r round(n.pers/365, 2)`
+
+Is is $\frac{1}{365} \times `r n.pers` = `r 1/365 * n.pers`$
+
+## Analytical solution    
+
+
+\begin{align}   
+ 1 - \bar p(n) &= 1 \times \left(1-\frac{1}{365}\right) \times \left(1-\frac{2}{365}\right) \times \cdots \times \left(1-\frac{n-1}{365}\right) \nonumber  \\  &= \frac{ 365 \times 364 \times \cdots \times (365-n+1) }{ 365^n } \nonumber \\ &= \frac{ 365! }{ 365^n (365-n)!} = \frac{n!\cdot\binom{365}{n}}{365^n}\\
+p(n= `r n.pers`) &= `r  round(1 - factorial(n.pers) * choose(365,n.pers)/ 365^n.pers, 3)`  \nonumber
+\end{align}
+
+
+
+
+

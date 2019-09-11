@@ -143,47 +143,54 @@ talk about undo here
 
 # Demos
 
-## Three Demos: 
+## Five Demos: 
 
 1 - **Simple but instructive.**   
 
-2 - Repeat but with a slightly more fun example. Collaborate.
+2 - Repeat with branches.  
  
-3 - Repeat with a real-life example.   
+3 - Repeat with collaboration: pull requests.   
 
+4 - Repeat with collaboration: shared ownership.   
+
+5 - Explore a real life repo.    
 
 ## Demo #1: We Start in the Cloud 
 
-1-  Create [github.com](github.com) account and sign in.   
-2-  Let's look at some **repos**.   
-3-  First way to access content: download.   
-4-  What if you want to have your own copy of the repo? **Fork** it!.  
-5-  Now create your own repo. Initiate readme and make some edits.   
+1 -  Create [github.com](github.com) account and sign in.   
+2 -  Let's look at some **repos**.   
+3 -  First way to access content: download.   
+4 -  What if you want to have your own copy of the repo? **Fork** it!.  
+5 -  Now create your own repo. Initiate readme and make some edits.   
 
 ## Demo #1: We move to our local computer 
 
-6- Clone the it. Explore the files and location.   
-7- Create new files, edit. And commit. Edit again, and commit again.   
-8- Push. Edit on github.com, and pull.   
-9- For this tutorial, best way to access previous version: explore in github.com and download.
+6 - Clone the it. Explore the files and location.   
+7 - Create new files, edit. And commit. Edit again, and commit again.   
+8 - Push. Edit on github.com, and pull.   
+9 - For this tutorial, best way to access previous version: explore in github.com and download.
 
 
-## Three Demos: 
+## Five Demos: 
 
 1 - Simple but instructive.   
     *Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.*   
-2 - **Repeat but with a slightly more fun example. Collaborate.**
-    
-3 - Repeat with a real-life example.   
-    
+
+2 - **Repeat with branches.**  
+ 
+3 - Repeat with collaboration: pull requests.   
+
+4 - Repeat with collaboration: shared ownership.   
+
+5 - Explore a real life repo.     
     
 ## Demo #2: Branches and collaboration (we wil be here a while)
 
-1- Create a branch from previous repo.  
-2- Add new content (do not replace), commit a few times, and go back and forth to the main branch.
-3- Go back to main branch (master), observe file, merge.  
-4- Look at the history of the main branch.   
-5- Repeat 1-3 but now replace instead of adding content.    
+1 - Create a branch from previous repo.  
+2 - Add new content (do not replace), commit a few times, and go back and forth to the main branch.  
+3 - Go back to main branch (master), observe file, merge.  
+4 - Look at the history of the main branch.   
+5 - Repeat 1-3 but now replace instead of adding content.    
  
 
 ## Fatal Error!
@@ -193,58 +200,108 @@ talk about undo here
 
 \pause  
 
-\includegraphics[height=1in]{../Images/calm_burn.jpg}  
+\includegraphics[height=1.8in]{../Images/calm_burn.jpg}  
  
 \LARGE{Burn it and start with a fresh copy!} 
 
+## Five Demos: 2/5 
+
+1 - Simple but instructive.   
+    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.  
+2 - Repeat with branches.  
+    *Review: All of the above, plus: branch, merge, resolve conflicts.   *
+3 - **Repeat with collaboration: pull requests.   **
+4 - Repeat with collaboration: shared ownership.     
+5 - Explore a real life repo.  
 
 
-## Demo #3: Branches and collaboration 
+## Demo #3: Pull requests
 
-1- Fork repo `github.com/BITSS/test2`, and clone it into your machine.  
-2- Edit fields of name, and birth date.   
-3- Save, commit and push.   
-4- Create your first Pull Request.   
-5- Let's see if I can manage all those pull requests very quickly.     
+1 - Fork repo `github.com/BITSS/test_birthday`, and clone it into your machine.  
+2 - Edit fields of name, and birth date.   
+3 - Save, commit and push.   
+4 - Create your first **pull request**.   
+5 - Let's see if I can manage all those pull requests very quickly (maybe illustrate issues).   
+6 - Now find your neighbors repo of Demos 1 & 2, fork it, clone it, make a change, save, commit, and...
+ 
 
-
-## Talk about two modes of collaboration  
+## Two formats of collaboration  
 
 - One owner, many pull requests.  
     - Easier to control, requires constant updating.   
 - Many owners, all can push.   
-    - **Very** important to pull every at the beginning and at before each push. 
+    - **Very** important to pull at the beginning and at before each push. 
 
-10- Create a new repo, invite a collaborator, edit, commit, push/pull.
-    10.1 - One of you adds ...   
-    10.2 - The other clones, commits and pushes.
-    10.3 - The other pulls, commits and pushes. (different lines)
-    10.4 - Repeats 10.2 - 10.3 but in same lines.
-    10.5 - Repeat now but with sharedbranches. 
+## Five Demos: 3/5 
 
-how do you distinguish between raw and analytic data
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
+1 - Simple but instructive.   
+    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.  
+2 - Repeat with branches.  
+    Review: All of the above, plus: branch, merge, resolve conflicts.   
+3 - Repeat with collaboration: pull requests.   
+    *Review: collaborate via fork + PR*  
+4 - **Repeat with collaboration: shared ownership. **    
+5 - Explore a real life repo.  
 
 
-## Demo #3: Look inside a real-life project (and collaborate!)
+## Demo #4: Many owners
+    
+1 - Half of you (#1): go back to the repo of demo 1 & 2 and invite a collaborator.  
+(Suggestion: the "forker" creates the repo, the "forkee" is invited  
+, edit, commit, push/pull)  
+\pause  
+2 - The other half (#2): clones, commits and pushes.  
+\pause  
+3 - #1 commits and pushes in **different lines**.    
+\pause  
+4 - Switch and repeat 2 & 3: #2 commits first and pushes, then #1.    
+\pause  
+5 - Repeat 2 - 4 but now both of you in the same lines.    
+\pause  
+6 - Repeat now but with branches (optional).    
+
+
+
+## Five Demos: 4/5 
+
+1 - Simple but instructive.   
+    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.  
+2 - Repeat with branches.  
+    Review: All of the above, plus: branch, merge, resolve conflicts.   
+3 - Repeat with collaboration: pull requests.   
+    Review: collaborate via fork + PR  
+4 - Repeat with collaboration: shared ownership.     
+    *Review: collaborate via share ownership.*  
+5 - **Explore a real life repo. ** 
+   
+
+
+## Demo #5: Look inside a real-life project (and collaborate!)
 
 1-  Find the following repo: `github.com/BITSS/opa-wealthtax`.   
 2-  Fork it and clone it.    
-3-  Open it in your computer: `nber_trends.Rproj` (needs RStudio), look around and execute up to the section (`Verifying gender [WORKSHOP SECTION]`).  
-4-  Find elasticities, fill in csv, document, submit. 
+3-  Open it in your computer: `opa-wealthtax.Rproj` (needs RStudio), look around and execute `code/dynamic_doc/wealth_tax_dd.Rmd`.  
+4-  Find elasticities, fill in csv, document, submit.
+5 - Find `code/interactive_visualization/server.R` and in line `1561` change `red` to `blue`
 
 
-## Demo #X: Look inside a half-way project (and collaborate!)
+
+
+## Five Demos: 5/5 
+
+1 - Simple but instructive.   
+    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.  
+2 - Repeat with branches.  
+    Review: All of the above, plus: branch, merge, resolve conflicts.   
+3 - Repeat with collaboration: pull requests.   
+    Review: collaborate via fork + PR  
+4 - Repeat with collaboration: shared ownership.     
+    Review: collaborate via share ownership.  
+5 - Explore a real life repo.  
+    *Review: All of the above, plus: how does a real-life example looks like.* 
+
+
+## Bonus Demo: Look inside a half-way project (and collaborate!)
 
 Description:   
 
@@ -267,15 +324,6 @@ Description:
 7-  Save, commit, push and create a pull request.  
 8-  Feel free to look around create more contributions if you like. Happy to co-author.   
 
-## Three Demos: 
-
-1 - Simple but instructive.   
-    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete & restart, search repo, download old version.   
-2 - Repeat but with a slightly more fun example. Collaborate.
-    Review: All of the above, plus: branch, merge, resolve conflicts, collaborate: same proj, fork model+PR
-    .  
-3 - Repeat with a real-life example.  
-    *Review: All of the above, plus: how does a real-life example looks like.* 
 
 
 ## Now go and explore!

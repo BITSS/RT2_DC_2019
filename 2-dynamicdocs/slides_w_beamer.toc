@@ -1,6 +1,6 @@
 \beamer@sectionintoc {1}{Dynamic Documents For Computational Reproducibility}{3}{0}{1}
-\beamer@sectionintoc {2}{One Type of Dynamic Document: R Markdown}{9}{0}{2}
-\beamer@sectionintoc {3}{Practical Excercise \#1}{16}{0}{3}
-\beamer@sectionintoc {4}{Practical Excercise \#2}{26}{0}{4}
-\beamer@sectionintoc {5}{Practical Excercise \#3}{39}{0}{5}
-\beamer@sectionintoc {6}{Final Remarks \& More Resources}{43}{0}{6}
+\beamer@sectionintoc {2}{One Type of Dynamic Document: R Markdown}{10}{0}{2}
+\beamer@sectionintoc {3}{Practical Excercise \#1}{17}{0}{3}
+\beamer@sectionintoc {4}{Practical Excercise \#2}{27}{0}{4}
+\beamer@sectionintoc {5}{Bonus Practical Excercise}{40}{0}{5}
+\beamer@sectionintoc {6}{Final Remarks \& More Resources}{44}{0}{6}

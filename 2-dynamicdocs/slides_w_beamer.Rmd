@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Documents using Stata and R: Hands-On"
+title: "Dynamic Documents using R: Hands-On"
 author: "| Fernando Hoces de la Guardia\n| BITSS   \n| -\n| Slides at \n|  <https://github.com/BITSS/RT2_DC_2019>\n"
 date: "RT2, Washington DC \n September 2019"
 output:
@@ -15,6 +15,12 @@ header-includes:
 
 
 # Dynamic Documents For Computational Reproducibility
+
+## Before we start: 
+
+- Have the latest version of R and RStudio installed   
+- Please clone the following repo to your computer:
+[github.com/BITSS/RT2_DC_2019](https://github.com/BITSS/RT2_DC_2019)
 
 ## Dynamic Documents For Computational Reproducibility
 - Based on principles of *literate programming* aims at combining code and paper in one single document 
@@ -37,7 +43,10 @@ header-includes:
 - [Optional-but-not-really] 1 program to bring all the elements together: RStudio/RMarkdown, Jupyter
 
 ## Markdown laguange/syntax in 60 seconds
-![](../Images/RStudioCS.png)
+
+[![Test](../Images/RStudioCS.png)](https://pandao.github.io/editor.md/en.html)
+
+google: `"online markdown editor"`  
 
 # One Type of Dynamic Document: R Markdown
 
@@ -135,7 +144,7 @@ As an illustration lets write a report using the participants in this workshop t
 ## Create a new RMarkdown File
 
 1 - In RStudio: `File-> New File -> RMarkdown...`  
-2 - Name it, and save it as `/3-dynamicdocs/first_dd.Rmd`.   
+2 - Name it, and save it as `/2-dynamicdocs/first_dd.Rmd`.   
 3 - Review/edit the header, and delete all the default body of text except for one code chunk.   
 4 - In that chunk define a seed (`set.seed(1234)` and number of people in the room (`n.pers = ?`).  
 5 - Below the first chunk, write down a title (using `#`) and a brief description.
@@ -147,7 +156,7 @@ Actually the math says otherwise:
 p(n= `r n.pers`) &= `r  round(1 - factorial(n.pers) * choose(365,n.pers)/ 365^n.pers, 3)`  \nonumber
 \end{align}
 
-## Code for the math (`/3-dynamicdocs/first_dd_solution.Rmd`)
+## Code for the math (`/2-dynamicdocs/first_dd_solution.Rmd`)
 
 Not relevant to look at: just copy and paste lines 23-30 from the solutions into your dynamic document. 
 
@@ -222,11 +231,11 @@ Lets use the of examples Figure [5.2.4](https://github.com/vikjam/mostly-harmles
 ## Instructions to get started with excercise #2:
 
 1 - Create a new blank `.Rmd` file (steps 1 - 3 in from previous ex.)
-2 - Save it as `/3-dynamicdocs/Figure 5-2-4.Rmd`   
+2 - Save it as `/2-dynamicdocs/Figure 5-2-4.Rmd`   
 3 - Look at [this code](https://github.com/vikjam/mostly-harmless-replication/blob/master/05%20Fixed%20Effects%2C%20DD%20and%20Panel%20Data/Figure%205-2-4.r) behind figure 5.2.4.  
 4 - Start building your own DD to describe what this code does. 
 
-We will go step by step using `/3-dynamicdocs/Figure 5-2-4_solutions.Rmd` as back-up.
+We will go step by step using `/2-dynamicdocs/Figure 5-2-4_solutions.Rmd` as back-up.
 
 ## Description
 
@@ -301,7 +310,7 @@ here goes the code
 - Run the solutions version into multiple outputs.   
 - Compare document with original version of the code.   
 
-# Practical Excercise #3
+# Bonus Practical Excercise
 
 ## Goals for excercise #3  
 
@@ -310,7 +319,7 @@ here goes the code
 2 - Demonstrate how to execute a DD in Stata.  
 
 
-## Hands-on excercise #3: Stata and TIER
+## Bonus hands-on excercise #3: Stata and TIER
 1- Go to github.com and search `dyndoc tier` or click here: [github.com/dvorakt/TIER_exercises](https://github.com/dvorakt/TIER_exercises).   
 2- Download or clone the repo.   
 3- Unzip it.   
@@ -332,3 +341,4 @@ here goes the code
  - This is particularly helpful to understand/present results that are hard to digest.
  - More great examples in the workshop repo (`x-moredynamicdocs`).
  - Want to learn more: [great free books](https://bookdown.org/) (can you guess how they were written?)
+ - One final cool example: [Ed Rubin's materials](http://edrub.in/teaching.html) for econometrics course. Example [here](https://raw.githack.com/edrubin/EC525S19/master/NotesLecture/03WhyRegression/03WhyRegression.html).

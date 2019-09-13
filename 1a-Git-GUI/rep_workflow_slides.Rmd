@@ -171,7 +171,7 @@ talk about undo here
 9 - For this tutorial, best way to access previous version: explore in github.com and download.
 
 
-## Five Demos: 
+## Five Demos 2/5: 
 
 1 - Simple but instructive.   
     *Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.*   
@@ -204,20 +204,20 @@ talk about undo here
  
 \LARGE{Burn it and start with a fresh copy!} 
 
-## Five Demos: 2/5 
+## Five Demos: 3/5 
 
 1 - Simple but instructive.   
     Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.  
 2 - Repeat with branches.  
-    *Review: All of the above, plus: branch, merge, resolve conflicts.   *
-3 - **Repeat with collaboration: pull requests.   **
+    *Review: All of the above, plus: branch, merge, resolve conflicts.*  
+3 - **Repeat with collaboration: pull requests.**  
 4 - Repeat with collaboration: shared ownership.     
 5 - Explore a real life repo.  
 
 
 ## Demo #3: Pull requests
 
-1 - Fork repo `github.com/BITSS/test_birthday`, and clone it into your machine.  
+1 - Fork repo [github.com/BITSS/test_birthday](https://github.com/BITSS/test_birthday), and clone it into your machine.  
 2 - Edit fields of name, and birth date.   
 3 - Save, commit and push.   
 4 - Create your first **pull request**.   
@@ -232,7 +232,7 @@ talk about undo here
 - Many owners, all can push.   
     - **Very** important to pull at the beginning and at before each push. 
 
-## Five Demos: 3/5 
+## Five Demos: 4/5 
 
 1 - Simple but instructive.   
     Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.  

@@ -67,7 +67,7 @@
 }
 \usepackage{hyperref}
 \hypersetup{
-            pdftitle={Dynamic Documents using Stata and R: Hands-On},
+            pdftitle={Dynamic Documents using R: Hands-On},
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
@@ -133,7 +133,7 @@
 
 \hypersetup{colorlinks, linkcolor=, urlcolor=blue, citecolor=blue}
 
-\title{Dynamic Documents using Stata and R: Hands-On}
+\title{Dynamic Documents using R: Hands-On}
 \author{Fernando Hoces de la Guardia\\
 BITSS\\
 -\\
@@ -150,6 +150,20 @@ Slides at\\
 \hypertarget{dynamic-documents-for-computational-reproducibility}{%
 \section{Dynamic Documents For Computational
 Reproducibility}\label{dynamic-documents-for-computational-reproducibility}}
+
+\begin{frame}{Before we start:}
+\protect\hypertarget{before-we-start}{}
+
+\begin{itemize}
+\tightlist
+\item
+  Have the latest version of R and RStudio installed\\
+\item
+  Please clone the following repo to your computer:
+  \href{https://github.com/BITSS/RT2_DC_2019}{github.com/BITSS/RT2\_DC\_2019}
+\end{itemize}
+
+\end{frame}
 
 \begin{frame}[fragile]{Dynamic Documents For Computational
 Reproducibility}
@@ -209,10 +223,12 @@ universes}
 
 \end{frame}
 
-\begin{frame}{Markdown laguange/syntax in 60 seconds}
+\begin{frame}[fragile]{Markdown laguange/syntax in 60 seconds}
 \protect\hypertarget{markdown-laguangesyntax-in-60-seconds}{}
 
-\includegraphics{../Images/RStudioCS.png}
+\href{https://pandao.github.io/editor.md/en.html}{\includegraphics{../Images/RStudioCS.png}}
+
+google: \texttt{"online\ markdown\ editor"}
 
 \end{frame}
 
@@ -369,7 +385,7 @@ Is it something like \(\frac{1}{365} \times 4=\) 0.011?
 
 1 - In RStudio:
 \texttt{File-\textgreater{}\ New\ File\ -\textgreater{}\ RMarkdown...}\\
-2 - Name it, and save it as \texttt{/3-dynamicdocs/first\_dd.Rmd}.\\
+2 - Name it, and save it as \texttt{/2-dynamicdocs/first\_dd.Rmd}.\\
 3 - Review/edit the header, and delete all the default body of text
 except for one code chunk.\\
 4 - In that chunk define a seed (\texttt{set.seed(1234)} and number of
@@ -390,8 +406,8 @@ p(n= 4) &= 0.016  \nonumber
 \end{frame}
 
 \begin{frame}[fragile]{Code for the math
-(\texttt{/3-dynamicdocs/first\_dd\_solution.Rmd})}
-\protect\hypertarget{code-for-the-math-3-dynamicdocsfirst_dd_solution.rmd}{}
+(\texttt{/2-dynamicdocs/first\_dd\_solution.Rmd})}
+\protect\hypertarget{code-for-the-math-2-dynamicdocsfirst_dd_solution.rmd}{}
 
 Not relevant to look at: just copy and paste lines 23-30 from the
 solutions into your dynamic document.
@@ -447,7 +463,7 @@ across 10,000 simulations, and report the complement.
 \end{Shaded}
 
 \begin{verbatim}
-## [1] 0.0169
+## [1] 0.016
 \end{verbatim}
 
 \end{frame}
@@ -463,7 +479,7 @@ across 10,000 simulations, and report the complement.
 \item
   However the true probability is of \(p(n= 4) = 0.016\)
 \item
-  And the simulated probability is of 0.0164
+  And the simulated probability is of 0.0168
 \end{itemize}
 
 \end{frame}
@@ -511,14 +527,14 @@ a DD.\\
 \protect\hypertarget{instructions-to-get-started-with-excercise-2}{}
 
 1 - Create a new blank \texttt{.Rmd} file (steps 1 - 3 in from previous
-ex.) 2 - Save it as \texttt{/3-dynamicdocs/Figure\ 5-2-4.Rmd}\\
+ex.) 2 - Save it as \texttt{/2-dynamicdocs/Figure\ 5-2-4.Rmd}\\
 3 - Look at
 \href{https://github.com/vikjam/mostly-harmless-replication/blob/master/05\%20Fixed\%20Effects\%2C\%20DD\%20and\%20Panel\%20Data/Figure\%205-2-4.r}{this
 code} behind figure 5.2.4.\\
 4 - Start building your own DD to describe what this code does.
 
 We will go step by step using
-\texttt{/3-dynamicdocs/Figure\ 5-2-4\_solutions.Rmd} as back-up.
+\texttt{/2-dynamicdocs/Figure\ 5-2-4\_solutions.Rmd} as back-up.
 
 \end{frame}
 
@@ -685,8 +701,8 @@ here goes the code
 
 \end{frame}
 
-\hypertarget{practical-excercise-3}{%
-\section{Practical Excercise \#3}\label{practical-excercise-3}}
+\hypertarget{bonus-practical-excercise}{%
+\section{Bonus Practical Excercise}\label{bonus-practical-excercise}}
 
 \begin{frame}[fragile]{Goals for excercise \#3}
 \protect\hypertarget{goals-for-excercise-3}{}
@@ -697,8 +713,8 @@ here goes the code
 
 \end{frame}
 
-\begin{frame}[fragile]{Hands-on excercise \#3: Stata and TIER}
-\protect\hypertarget{hands-on-excercise-3-stata-and-tier}{}
+\begin{frame}[fragile]{Bonus hands-on excercise \#3: Stata and TIER}
+\protect\hypertarget{bonus-hands-on-excercise-3-stata-and-tier}{}
 
 1- Go to github.com and search \texttt{dyndoc\ tier} or click here:
 \href{https://github.com/dvorakt/TIER_exercises}{github.com/dvorakt/TIER\_exercises}.\\
@@ -746,6 +762,10 @@ Resources}\label{final-remarks-more-resources}}
 \item
   Want to learn more: \href{https://bookdown.org/}{great free books}
   (can you guess how they were written?)
+\item
+  One final cool example: \href{http://edrub.in/teaching.html}{Ed
+  Rubin's materials} for econometrics course. Example
+  \href{https://raw.githack.com/edrubin/EC525S19/master/NotesLecture/03WhyRegression/03WhyRegression.html}{here}.
 \end{itemize}
 
 \end{frame}

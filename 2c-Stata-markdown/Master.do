@@ -45,7 +45,7 @@
 		whereis pandoc 				"ADD/PATH/HERE"
 		
 		* Workshop folder
-		global	reusable_analytics	"ADD/PATH/HERE/wb_reusable_analytics/02b-Stata-markdown"
+		global	RT2					"ADD/PATH/HERE"
 	}
 	
 /*******************************************************************************
@@ -55,10 +55,10 @@
 	if `document' {
 	
 		* Copy the Stata style to the same folder as the markdown file to compile in PDF
-		//cd "${reusable_analytics}"
+		//cd "${mdfolder}"
 		//copy https://www.stata-journal.com/production/sjlatex/stata.sty 	stata.sty
 		
-		markstat using "${reusable_analytics}/Stata markdown template"
+		markstat using "${RT2}/2c-Stata-markdown/Stata markdown template", pdf
 	
 	}
 	

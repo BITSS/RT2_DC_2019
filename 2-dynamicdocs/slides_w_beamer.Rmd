@@ -78,7 +78,7 @@ output: html_document
 ```  
 
 ```{r global pars, eval=TRUE, echo=FALSE, results='hide'}
-n.pers = 4
+n.pers = 20
 ```  
 
 
